@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1008367A1D95A84A0079C8D9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100836791D95A84A0079C8D9 /* WelcomeViewController.swift */; };
+		105119741D945C54004083F8 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105119731D945C54004083F8 /* LoginService.swift */; };
+		105119761D945FA2004083F8 /* ConnectionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105119751D945FA2004083F8 /* ConnectionSettings.swift */; };
 		1073257A1D930A9C005F4C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107325791D930A9C005F4C26 /* AppDelegate.swift */; };
 		1073257C1D930A9C005F4C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073257B1D930A9C005F4C26 /* ViewController.swift */; };
 		1073257F1D930A9C005F4C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1073257D1D930A9C005F4C26 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		107325871D930A9C005F4C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107325851D930A9C005F4C26 /* LaunchScreen.storyboard */; };
 		107325921D930A9C005F4C26 /* BassFishingAppTakeTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107325911D930A9C005F4C26 /* BassFishingAppTakeTwoTests.swift */; };
 		1073259D1D930A9C005F4C26 /* BassFishingAppTakeTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073259C1D930A9C005F4C26 /* BassFishingAppTakeTwoUITests.swift */; };
+		107325AF1D930EB4005F4C26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107325AE1D930EB4005F4C26 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100836791D95A84A0079C8D9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		105119731D945C54004083F8 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		105119751D945FA2004083F8 /* ConnectionSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionSettings.swift; sourceTree = "<group>"; };
 		107325761D930A9C005F4C26 /* BassFishingAppTakeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BassFishingAppTakeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		107325791D930A9C005F4C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1073257B1D930A9C005F4C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		107325981D930A9C005F4C26 /* BassFishingAppTakeTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BassFishingAppTakeTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1073259C1D930A9C005F4C26 /* BassFishingAppTakeTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassFishingAppTakeTwoUITests.swift; sourceTree = "<group>"; };
 		1073259E1D930A9C005F4C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107325AE1D930EB4005F4C26 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,9 @@
 		1073256D1D930A9C005F4C26 = {
 			isa = PBXGroup;
 			children = (
+				105119751D945FA2004083F8 /* ConnectionSettings.swift */,
+				105119731D945C54004083F8 /* LoginService.swift */,
+				107325AE1D930EB4005F4C26 /* LoginViewController.swift */,
 				107325781D930A9C005F4C26 /* BassFishingAppTakeTwo */,
 				107325901D930A9C005F4C26 /* BassFishingAppTakeTwoTests */,
 				1073259B1D930A9C005F4C26 /* BassFishingAppTakeTwoUITests */,
@@ -102,6 +113,7 @@
 				107325791D930A9C005F4C26 /* AppDelegate.swift */,
 				1073257B1D930A9C005F4C26 /* ViewController.swift */,
 				1073257D1D930A9C005F4C26 /* Main.storyboard */,
+				100836791D95A84A0079C8D9 /* WelcomeViewController.swift */,
 				107325831D930A9C005F4C26 /* Assets.xcassets */,
 				107325851D930A9C005F4C26 /* LaunchScreen.storyboard */,
 				107325881D930A9C005F4C26 /* Info.plist */,
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107325AF1D930EB4005F4C26 /* LoginViewController.swift in Sources */,
 				1073257C1D930A9C005F4C26 /* ViewController.swift in Sources */,
+				105119761D945FA2004083F8 /* ConnectionSettings.swift in Sources */,
+				105119741D945C54004083F8 /* LoginService.swift in Sources */,
 				1073257A1D930A9C005F4C26 /* AppDelegate.swift in Sources */,
 				107325821D930A9C005F4C26 /* BassFishingAppTakeTwo.xcdatamodeld in Sources */,
+				1008367A1D95A84A0079C8D9 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +504,7 @@
 				107325A31D930A9C005F4C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107325A41D930A9C005F4C26 /* Build configuration list for PBXNativeTarget "BassFishingAppTakeTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +513,7 @@
 				107325A61D930A9C005F4C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107325A71D930A9C005F4C26 /* Build configuration list for PBXNativeTarget "BassFishingAppTakeTwoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +522,7 @@
 				107325A91D930A9C005F4C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
